@@ -30,4 +30,4 @@ func pick_new_state():
 	if(velocity != Vector2.ZERO):
 		state_machine.travel("walk")
 	else:
-		state_machine.travel("idle")
+		state_machine.travel("idle")         
